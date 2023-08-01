@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "total_count": 6
+  },
+  "items": [
+    {
+      "id": 64,
+      "meta": {
+        "type": "locations.LocationPage",
+        "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/64/",
+        "html_url": "http://127.0.0.1:8000/locations/new-york/",
+        "slug": "new-york",
+        "first_published_at": "2019-02-10T16:39:55.909000Z",
+        "parent": {
+          "id": 63,
+          "meta": {
+            "type": "locations.LocationsIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/63/",
+            "html_url": "http://127.0.0.1:8000/locations/"
+          },
+          "title": "Locations"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T17:50:19.047000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin/api/main/pages/?child_of=64"
+        }
+      },
+      "title": "Hof",
+      "admin_display_title": "Hof"
+    },
+    {
+      "id": 65,
+      "meta": {
+        "type": "locations.LocationPage",
+        "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/65/",
+        "html_url": "http://127.0.0.1:8000/locations/reykjavik/",
+        "slug": "reykjavik",
+        "first_published_at": "2019-02-11T23:10:22.386000Z",
+        "parent": {
+          "id": 63,
+          "meta": {
+            "type": "locations.LocationsIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/63/",
+            "html_url": "http://127.0.0.1:8000/locations/"
+          },
+          "title": "Locations"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T17:33:10.041000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin/api/main/pages/?child_of=65"
+        }
+      },
+      "title": "Reykjavik",
+      "admin_display_title": "Reykjavik"
+    },
+    {
+      "id": 66,
+      "meta": {
+        "type": "locations.LocationPage",
+        "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/66/",
+        "html_url": "http://127.0.0.1:8000/locations/london/",
+        "slug": "london",
+        "first_published_at": "2019-02-11T23:13:20.488000Z",
+        "parent": {
+          "id": 63,
+          "meta": {
+            "type": "locations.LocationsIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/63/",
+            "html_url": "http://127.0.0.1:8000/locations/"
+          },
+          "title": "Locations"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T18:03:09.098000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin/api/main/pages/?child_of=66"
+        }
+      },
+      "title": "Vik",
+      "admin_display_title": "Vik"
+    },
+    {
+      "id": 67,
+      "meta": {
+        "type": "locations.LocationPage",
+        "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/67/",
+        "html_url": "http://127.0.0.1:8000/locations/wellington/",
+        "slug": "wellington",
+        "first_published_at": "2019-02-11T23:15:58.149000Z",
+        "parent": {
+          "id": 63,
+          "meta": {
+            "type": "locations.LocationsIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/63/",
+            "html_url": "http://127.0.0.1:8000/locations/"
+          },
+          "title": "Locations"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T17:29:33.457000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin/api/main/pages/?child_of=67"
+        }
+      },
+      "title": "Selfoss",
+      "admin_display_title": "Selfoss"
+    },
+    {
+      "id": 78,
+      "meta": {
+        "type": "locations.LocationPage",
+        "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/78/",
+        "html_url": "http://127.0.0.1:8000/locations/hofn/",
+        "slug": "hofn",
+        "first_published_at": "2019-02-11T23:10:22.386000Z",
+        "parent": {
+          "id": 63,
+          "meta": {
+            "type": "locations.LocationsIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/63/",
+            "html_url": "http://127.0.0.1:8000/locations/"
+          },
+          "title": "Locations"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T18:05:47.930000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin/api/main/pages/?child_of=78"
+        }
+      },
+      "title": "Höfn",
+      "admin_display_title": "Höfn"
+    },
+    {
+      "id": 79,
+      "meta": {
+        "type": "locations.LocationPage",
+        "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/79/",
+        "html_url": "http://127.0.0.1:8000/locations/akranes/",
+        "slug": "akranes",
+        "first_published_at": "2019-02-11T23:10:22.386000Z",
+        "parent": {
+          "id": 63,
+          "meta": {
+            "type": "locations.LocationsIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin/api/main/pages/63/",
+            "html_url": "http://127.0.0.1:8000/locations/"
+          },
+          "title": "Locations"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T18:09:44.290000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin/api/main/pages/?child_of=79"
+        }
+      },
+      "title": "Akranes",
+      "admin_display_title": "Akranes"
+    }
+  ],
+  "__types": {
+    "locations.LocationPage": {
+      "verbose_name": "location page",
+      "verbose_name_plural": "location pages"
+    },
+    "locations.LocationsIndexPage": {
+      "verbose_name": "locations index page",
+      "verbose_name_plural": "locations index pages"
+    }
+  }
+}
