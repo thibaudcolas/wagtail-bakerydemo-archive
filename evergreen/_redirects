@@ -3,3 +3,4 @@
 /admin/api/main/pages/ translation_of=:id /admin/api/main/pages/translation_of_:id.json
 /admin/pages/:id/privacy/ /admin/pages/68/privacy/index.html
 /admin/pages/:id/edit/preview/ /admin/pages/62/edit/preview/index.html
+/admin/settings/base/genericsettings/ /admin/settings/base/genericsettings/1/

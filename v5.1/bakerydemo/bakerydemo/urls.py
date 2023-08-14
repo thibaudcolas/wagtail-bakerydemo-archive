@@ -15,8 +15,16 @@ from .api import api_router
 urlpatterns = [
     path("django-admin/", admin.site.urls),
     path("admin/", include(wagtailadmin_urls)),
+    # path("admin-arabic/", include(wagtailadmin_urls)),
+    # path("admin-german/", include(wagtailadmin_urls)),
+    # path("admin-editor/", include(wagtailadmin_urls)),
+    # path("admin-dark/", include(wagtailadmin_urls)),
     path("documents/", include(wagtaildocs_urls)),
-    re_path(r'^images/([^/]*)/(\d*)/([^/]*)/[^/]*$', ServeView.as_view(), name='wagtailimages_serve'),
+    re_path(
+        r"^images/([^/]*)/(\d*)/([^/]*)/[^/]*$",
+        ServeView.as_view(),
+        name="wagtailimages_serve",
+    ),
     path("search/", search_views.search, name="search"),
     path("sitemap.xml", sitemap),
     path("api/v2/", api_router.urls),
