@@ -2,7 +2,11 @@
 
 Static snapshots of Wagtail’s bakerydemo across [past versions](https://github.com/wagtail/wagtail/wiki/release-schedule) of the CMS.
 
-- [v5.1](https://static-wagtail-v5-0.netlify.app/): 2023-08-01
+- [v5.1](https://static-wagtail-v5-1.netlify.app/): 2023-08-01
+  - [v5.1 admin in dark mode](https://static-wagtail-v5-1.netlify.app/admin-dark/)
+  - [v5.1 admin in Arabic](https://static-wagtail-v5-1.netlify.app/admin-arabic/)
+  - [v5.1 admin in German](https://static-wagtail-v5-1.netlify.app/admin-german/)
+  - [v5.1 admin for non-admin user](https://static-wagtail-v5-1.netlify.app/admin-editor/)
 - [v5.0](https://static-wagtail-v5-0.netlify.app/): 2023-05-02
 - [v4.2](https://static-wagtail-v4-2.netlify.app/): 2023-02-01
 - [v4.1](https://static-wagtail-v4-1.netlify.app/): 2022-11-01
