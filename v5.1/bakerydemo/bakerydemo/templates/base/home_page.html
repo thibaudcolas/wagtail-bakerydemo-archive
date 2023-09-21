@@ -5,7 +5,7 @@
     <div class="homepage">
 
         <div class="container-fluid hero">
-            {% image page.image fill-1920x600 class="hero-image" alt="" %}
+            {% image page.image fill-1920x600 format-avif avifquality-40 class="hero-image" alt="" %}
             <div class="hero-gradient-mask"></div>
             <div class="container">
                 <div class="row">
@@ -55,7 +55,7 @@
                         </div>
                     {% endif %}
                     {% if page.promo_image %}
-                        <figure>{% image page.promo_image fill-590x413-c100 %}</figure>
+                        <figure>{% image page.promo_image fill-590x413-c100 format-avif avifquality-40 %}</figure>
                     {% endif %}
                 </div>
             </div>
