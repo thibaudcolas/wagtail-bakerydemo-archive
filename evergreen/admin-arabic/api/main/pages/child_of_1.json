@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "total_count": 1
+  },
+  "items": [
+    {
+      "id": 60,
+      "meta": {
+        "type": "base.HomePage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+        "html_url": "http://127.0.0.1:8000/",
+        "slug": "home",
+        "first_published_at": "2019-02-10T16:24:31.388000Z",
+        "parent": {
+          "id": 1,
+          "meta": {
+            "type": "wagtailcore.Page",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/1/",
+            "html_url": null
+          },
+          "title": "Root"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-29T18:24:51.618000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 7,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=60"
+        }
+      },
+      "title": "Welcome to the Wagtail Bakery!",
+      "admin_display_title": "Welcome to the Wagtail Bakery!"
+    }
+  ],
+  "__types": {
+    "base.HomePage": {
+      "verbose_name": "home page",
+      "verbose_name_plural": "home pages"
+    },
+    "wagtailcore.Page": {
+      "verbose_name": "page",
+      "verbose_name_plural": "pages"
+    }
+  }
+}

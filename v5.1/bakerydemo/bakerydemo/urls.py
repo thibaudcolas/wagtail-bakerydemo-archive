@@ -13,7 +13,7 @@ from bakerydemo.search import views as search_views
 from .api import api_router
 
 urlpatterns = [
-    path("django-admin/", admin.site.urls),
+    # path("django-admin/", admin.site.urls),
     path("admin/", include(wagtailadmin_urls)),
     # path("admin-arabic/", include(wagtailadmin_urls)),
     # path("admin-german/", include(wagtailadmin_urls)),

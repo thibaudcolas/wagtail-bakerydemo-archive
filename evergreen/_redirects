@@ -4,3 +4,23 @@
 /admin/pages/:id/privacy/ /admin/pages/68/privacy/index.html
 /admin/pages/:id/edit/preview/ /admin/pages/62/edit/preview/index.html
 /admin/settings/base/genericsettings/ /admin/settings/base/genericsettings/1/
+/admin-dark/api/main/pages/ child_of=:id /admin-dark/api/main/pages/child_of_:id.json
+/admin-dark/api/main/pages/ translation_of=:id /admin-dark/api/main/pages/translation_of_:id.json
+/admin-dark/pages/:id/privacy/ /admin-dark/pages/68/privacy/index.html
+/admin-dark/pages/:id/edit/preview/ /admin-dark/pages/62/edit/preview/index.html
+/admin-dark/settings/base/genericsettings/ /admin-dark/settings/base/genericsettings/1/
+/admin-german/api/main/pages/ child_of=:id /admin-german/api/main/pages/child_of_:id.json
+/admin-german/api/main/pages/ translation_of=:id /admin-german/api/main/pages/translation_of_:id.json
+/admin-german/pages/:id/privacy/ /admin-german/pages/68/privacy/index.html
+/admin-german/pages/:id/edit/preview/ /admin-german/pages/62/edit/preview/index.html
+/admin-german/settings/base/genericsettings/ /admin-german/settings/base/genericsettings/1/
+/admin-arabic/api/main/pages/ child_of=:id /admin-arabic/api/main/pages/child_of_:id.json
+/admin-arabic/api/main/pages/ translation_of=:id /admin-arabic/api/main/pages/translation_of_:id.json
+/admin-arabic/pages/:id/privacy/ /admin-arabic/pages/68/privacy/index.html
+/admin-arabic/pages/:id/edit/preview/ /admin-arabic/pages/62/edit/preview/index.html
+/admin-arabic/settings/base/genericsettings/ /admin-arabic/settings/base/genericsettings/1/
+/admin-editor/api/main/pages/ child_of=:id /admin-editor/api/main/pages/child_of_:id.json
+/admin-editor/api/main/pages/ translation_of=:id /admin-editor/api/main/pages/translation_of_:id.json
+/admin-editor/pages/:id/privacy/ /admin-editor/pages/68/privacy/index.html
+/admin-editor/pages/:id/edit/preview/ /admin-editor/pages/62/edit/preview/index.html
+/admin-editor/settings/base/genericsettings/ /admin-editor/settings/base/genericsettings/1/

@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "total_count": 8
+  },
+  "items": [
+    {
+      "id": 3,
+      "meta": {
+        "type": "breads.BreadsIndexPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/3/",
+        "html_url": "http://127.0.0.1:8000/breads/",
+        "slug": "breads",
+        "first_published_at": "2019-02-10T11:34:11.560000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-22T06:54:24.677000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 11,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=3"
+        }
+      },
+      "title": "Breads",
+      "admin_display_title": "Breads"
+    },
+    {
+      "id": 63,
+      "meta": {
+        "type": "locations.LocationsIndexPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/63/",
+        "html_url": "http://127.0.0.1:8000/locations/",
+        "slug": "locations",
+        "first_published_at": "2019-02-10T16:39:04.527000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-06T02:26:16.335000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 6,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=63"
+        }
+      },
+      "title": "Locations",
+      "admin_display_title": "Locations"
+    },
+    {
+      "id": 61,
+      "meta": {
+        "type": "blog.BlogIndexPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/61/",
+        "html_url": "http://127.0.0.1:8000/blog/",
+        "slug": "blog",
+        "first_published_at": "2019-02-10T16:25:47.179000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-04-23T20:04:30.432000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 6,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=61"
+        }
+      },
+      "title": "Blog",
+      "admin_display_title": "Blog"
+    },
+    {
+      "id": 80,
+      "meta": {
+        "type": "recipes.RecipeIndexPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/80/",
+        "html_url": "http://127.0.0.1:8000/recipes/",
+        "slug": "recipes",
+        "first_published_at": "2019-02-10T16:25:47.179000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-04-23T20:04:30.432000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 3,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=80"
+        }
+      },
+      "title": "Recipes",
+      "admin_display_title": "Recipes"
+    },
+    {
+      "id": 70,
+      "meta": {
+        "type": "base.GalleryPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/70/",
+        "html_url": "http://127.0.0.1:8000/gallery/",
+        "slug": "gallery",
+        "first_published_at": "2019-02-17T07:51:47.230000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-02-22T07:57:12.151000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=70"
+        }
+      },
+      "title": "Gallery",
+      "admin_display_title": "Gallery"
+    },
+    {
+      "id": 69,
+      "meta": {
+        "type": "base.FormPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/69/",
+        "html_url": "http://127.0.0.1:8000/contact-us/",
+        "slug": "contact-us",
+        "first_published_at": "2019-02-15T16:55:56.085000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-02-15T17:08:05.684000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=69"
+        }
+      },
+      "title": "Contact Us",
+      "admin_display_title": "Contact Us"
+    },
+    {
+      "id": 76,
+      "meta": {
+        "type": "base.StandardPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/76/",
+        "html_url": "http://127.0.0.1:8000/about/",
+        "slug": "about",
+        "first_published_at": "2019-03-17T07:03:16.637000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-03-17T07:47:50.894000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=76"
+        }
+      },
+      "title": "About",
+      "admin_display_title": "About"
+    },
+    {
+      "id": 84,
+      "meta": {
+        "type": "ui_tests.EverythingPage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/84/",
+        "html_url": "http://127.0.0.1:8000/everything-page-1/",
+        "slug": "everything-page-1",
+        "first_published_at": "2023-03-28T11:48:39.854000Z",
+        "parent": {
+          "id": 60,
+          "meta": {
+            "type": "base.HomePage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/60/",
+            "html_url": "http://127.0.0.1:8000/"
+          },
+          "title": "Welcome to the Wagtail Bakery!"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2023-03-28T11:48:39.756000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=84"
+        }
+      },
+      "title": "Everything page #1",
+      "admin_display_title": "Everything page #1"
+    }
+  ],
+  "__types": {
+    "breads.BreadsIndexPage": {
+      "verbose_name": "breads index page",
+      "verbose_name_plural": "breads index pages"
+    },
+    "base.HomePage": {
+      "verbose_name": "home page",
+      "verbose_name_plural": "home pages"
+    },
+    "locations.LocationsIndexPage": {
+      "verbose_name": "locations index page",
+      "verbose_name_plural": "locations index pages"
+    },
+    "blog.BlogIndexPage": {
+      "verbose_name": "blog index page",
+      "verbose_name_plural": "blog index pages"
+    },
+    "recipes.RecipeIndexPage": {
+      "verbose_name": "recipe index page",
+      "verbose_name_plural": "recipe index pages"
+    },
+    "base.GalleryPage": {
+      "verbose_name": "gallery page",
+      "verbose_name_plural": "gallery pages"
+    },
+    "base.FormPage": {
+      "verbose_name": "form page",
+      "verbose_name_plural": "form pages"
+    },
+    "base.StandardPage": {
+      "verbose_name": "standard page",
+      "verbose_name_plural": "standard pages"
+    },
+    "ui_tests.EverythingPage": {
+      "verbose_name": "everything page",
+      "verbose_name_plural": "everything pages"
+    }
+  }
+}

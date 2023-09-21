@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "total_count": 3
+  },
+  "items": [
+    {
+      "id": 81,
+      "meta": {
+        "type": "recipes.RecipePage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/81/",
+        "html_url": "http://127.0.0.1:8000/recipes/hot-cross-bun/",
+        "slug": "hot-cross-bun",
+        "first_published_at": "2019-02-10T16:26:58.040000Z",
+        "parent": {
+          "id": 80,
+          "meta": {
+            "type": "recipes.RecipeIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/80/",
+            "html_url": "http://127.0.0.1:8000/recipes/"
+          },
+          "title": "Recipes"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-04-01T07:35:45.288000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=81"
+        }
+      },
+      "title": "Hot Cross Bun",
+      "admin_display_title": "Hot Cross Bun"
+    },
+    {
+      "id": 82,
+      "meta": {
+        "type": "recipes.RecipePage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/82/",
+        "html_url": "http://127.0.0.1:8000/recipes/southern-cornbread/",
+        "slug": "southern-cornbread",
+        "first_published_at": "2019-02-10T16:26:58.040000Z",
+        "parent": {
+          "id": 80,
+          "meta": {
+            "type": "recipes.RecipeIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/80/",
+            "html_url": "http://127.0.0.1:8000/recipes/"
+          },
+          "title": "Recipes"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-04-01T07:35:45.288000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=82"
+        }
+      },
+      "title": "Southern Cornbread",
+      "admin_display_title": "Southern Cornbread"
+    },
+    {
+      "id": 83,
+      "meta": {
+        "type": "recipes.RecipePage",
+        "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/83/",
+        "html_url": "http://127.0.0.1:8000/recipes/mincemeat-tart/",
+        "slug": "mincemeat-tart",
+        "first_published_at": "2019-02-10T16:26:58.040000Z",
+        "parent": {
+          "id": 80,
+          "meta": {
+            "type": "recipes.RecipeIndexPage",
+            "detail_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/80/",
+            "html_url": "http://127.0.0.1:8000/recipes/"
+          },
+          "title": "Recipes"
+        },
+        "locale": "en",
+        "latest_revision_created_at": "2019-04-01T07:35:45.288000Z",
+        "status": {
+          "status": "live",
+          "live": true,
+          "has_unpublished_changes": false
+        },
+        "children": {
+          "count": 0,
+          "listing_url": "http://127.0.0.1:8000/admin-arabic/api/main/pages/?child_of=83"
+        }
+      },
+      "title": "Mincemeat Tart",
+      "admin_display_title": "Mincemeat Tart"
+    }
+  ],
+  "__types": {
+    "recipes.RecipePage": {
+      "verbose_name": "recipe page",
+      "verbose_name_plural": "recipe pages"
+    },
+    "recipes.RecipeIndexPage": {
+      "verbose_name": "recipe index page",
+      "verbose_name_plural": "recipe index pages"
+    }
+  }
+}

@@ -1,5 +1,4 @@
 wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/django-admin/
 wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/account/
 wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/base/people/
 wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/base/footertext/
