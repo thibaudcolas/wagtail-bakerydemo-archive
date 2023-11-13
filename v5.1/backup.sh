@@ -1,53 +1,48 @@
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/account/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/base/people/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/base/footertext/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/breads/breadingredient/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/breads/breadtype/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/breads/country/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/pages/search/?q=test
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/pages/search/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/locked/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/workflows/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/workflow/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/workflow_task/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/workflow_tasks/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/site-history/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/reports/aging-pages/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/forms/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/list/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/edit/1/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/disable/1/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/tasks/index/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/tasks/edit/1/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/tasks/disable/1/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/tasks/users/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/users/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/groups/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/locales/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/collections/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/redirects/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/searchpicks/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/sites/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/settings/base/genericsettings/1/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/settings/base/sitesettings/2/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/styleguide/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/snippets/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/images/chooser/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/pages/68/privacy/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/choose-page/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/documents/chooser/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/embeds/chooser/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/snippets/choose/base/people/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/search/queries/chooser/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/workflows/task_chooser/
-wget --no-host-directories -P ./static-wagtail-v5-1 --mirror --load-cookies cookies.txt http://localhost:8000/admin/pages/62/edit/preview/
-find ./static-wagtail-v5-1 -name "*export=xlsx*" | xargs rm
-find ./static-wagtail-v5-1 -name "*export=csv*" | xargs rm
-# Keep all **three** sprite hash references up-to-date
-mkdir -p static-wagtail-v5-1/admin/sprite-fa0a1bb8/
-wget -O static-wagtail-v5-1/admin/sprite-fa0a1bb8/index.html http://localhost:8000/admin/sprite-fa0a1bb8/
-rm -rf static-wagtail-v5-1/static
-cp -R bakerydemo/bakerydemo/collect_static static-wagtail-v5-1/static
-cp -R ../evergreen/api ./static-wagtail-v5-1/admin/api
-cp -R ../evergreen/_redirects ./static-wagtail-v5-1/_redirects
+#!/bin/bash
+
+SESSIONID=$1
+ADMIN_PATH=$2
+HOST=$3
+URL_PATHS=admin_paths.csv
+SPRITE_HASH=e6c9bd7d
+COOKIES=cookies.txt
+VERSION=v5-2
+SITE_NAME=static-wagtail-$VERSION
+
+if [ -z "$ADMIN_PATH" ]; then
+  ADMIN_PATH="/admin"
+fi
+if [ -z "$HOST" ]; then
+  HOST="http://localhost:8000"
+fi
+
+touch $COOKIES
+echo "localhost:8000	FALSE	/	FALSE	1711645349	sessionid	$SESSIONID" > $COOKIES
+
+
+if [ "$ADMIN_PATH" = "/admin" ]; then
+  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $HOST/
+  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $HOST/search/?q=bread
+
+  wget --no-host-directories -P ./$SITE_NAME --mirror $HOST$ADMIN_PATH/login/
+  wget --no-host-directories -P ./$SITE_NAME --mirror $HOST$ADMIN_PATH/password_reset/
+  wget --no-host-directories -P ./$SITE_NAME --mirror $HOST$ADMIN_PATH/password_reset/done/
+else
+  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $HOST$ADMIN_PATH/
+fi
+
+while IFS= read -r path; do
+  FULL_URL="${HOST}${ADMIN_PATH}${path}"
+  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $FULL_URL
+done < $URL_PATHS
+
+find ./$SITE_NAME -name "*export=xlsx*" | xargs rm
+find ./$SITE_NAME -name "*export=csv*" | xargs rm
+
+mkdir -p $SITE_NAME$ADMIN_PATH/sprite-$SPRITE_HASH/
+wget -O $SITE_NAME$ADMIN_PATH/sprite-$SPRITE_HASH/index.html $HOST$ADMIN_PATH/sprite-$SPRITE_HASH/
+rm -rf $SITE_NAME/static
+cp -R bakerydemo/bakerydemo/collect_static $SITE_NAME/static
+cp -R ../evergreen$ADMIN_PATH/api ./$SITE_NAME$ADMIN_PATH/api
+
+cp -R ../evergreen/_redirects ./$SITE_NAME/_redirects
