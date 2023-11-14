@@ -2,6 +2,11 @@
 
 Static snapshots of Wagtail’s bakerydemo across [past versions](https://github.com/wagtail/wagtail/wiki/release-schedule) of the CMS.
 
+- [v5.2](https://static-wagtail-v5-2.netlify.app/): 2023-11-01
+  - [v5.2 admin in dark mode](https://static-wagtail-v5-2.netlify.app/admin-dark/)
+  - [v5.2 admin in Arabic](https://static-wagtail-v5-2.netlify.app/admin-arabic/)
+  - [v5.2 admin in German](https://static-wagtail-v5-2.netlify.app/admin-german/)
+  - [v5.2 admin for non-admin user](https://static-wagtail-v5-2.netlify.app/admin-editor/)
 - [v5.1](https://static-wagtail-v5-1.netlify.app/): 2023-08-01
   - [v5.1 admin in dark mode](https://static-wagtail-v5-1.netlify.app/admin-dark/)
   - [v5.1 admin in Arabic](https://static-wagtail-v5-1.netlify.app/admin-arabic/)
@@ -21,7 +26,6 @@ Due to the snapshots being static, there are a few clear limitations:
 - Content / data is not editable. Form fields can be updated, but saving the changes won’t work.
 - Parts of the CMS relying on API calls only show their most basic functionality, such as:
   - Choosers
-  - Page explorer
   - Live previews
 
 ## Creating a new snapshot
@@ -38,23 +42,20 @@ vim .gitignore
 # Edit the wagtail requirement to target the desired version.
 # Depending on the selected version, you may also need to switch to a specific commit of the bakerydemo, or make arbitrary changes to the code.
 vim requirements/base.txt
-virtualenv -p python3.9 venv
+python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ./manage.py migrate
 ./manage.py load_initial_data
 ./manage.py collectstatic
-./manage.py runserver 0:8009
+./manage.py runserver 0:8000
 ```
 
 Then prepare the backup,
 
 ```bash
 cd v4.2
-cp ../v4.1/cookies.txt .
-# Edit the cookies.txt with the correct sessionid from browser DevTools.
-vim cookies.txt
-cp ../v4.1/backup.sh .
+cp ../evergreen/backup.sh .
 # Edit the backup.sh with the correct sprite URL from browser DevTools (`localStorage.getItem('wagtail:spriteRevision')`).
 # Also make sure to use the correct folder name.
 vim backup.sh
