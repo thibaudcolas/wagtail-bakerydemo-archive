@@ -18,6 +18,7 @@ Static snapshots of Wagtail’s bakerydemo across [past versions](https://github
 - [v4.0](https://static-wagtail-v4-0.netlify.app/): 2022-08-31
 - [v3.0](https://static-wagtail-v3-0.netlify.app/): 2022-05-16
 - [v2.16](https://static-wagtail-v2-16.netlify.app/): 2022-02-07
+- [v2.0](https://static-wagtail-v2-0.netlify.app/): 2018-02-28
 
 ## Supported features
 
