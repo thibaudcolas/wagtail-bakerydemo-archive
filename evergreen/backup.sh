@@ -49,6 +49,9 @@ while IFS= read -r path; do
   wget --no-host-directories -P ./$SITE_NAME --mirror --level=1 --load-cookies $COOKIES $FULL_URL
 done < $EXTRA_PATHS
 
+# Finish with this to reset the dashboard copy.
+wget --no-host-directories -P ./$SITE_NAME --load-cookies $COOKIES $HOST/
+
 find ./$SITE_NAME -name "*export=xlsx*" | xargs rm
 find ./$SITE_NAME -name "*export=csv*" | xargs rm
 
