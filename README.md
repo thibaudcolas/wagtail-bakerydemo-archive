@@ -2,6 +2,15 @@
 
 Static snapshots of Wagtail’s bakerydemo across [past versions](https://github.com/wagtail/wagtail/wiki/release-schedule) of the CMS.
 
+- [v6.3](https://static-wagtail-v6-3.netlify.app/): 2024-11-01
+  - [v6.3 admin in dark mode](https://static-wagtail-v6-3.netlify.app/admin-dark/)
+  - [v6.3 admin in Arabic](https://static-wagtail-v6-3.netlify.app/admin-arabic/)
+  - [v6.3 admin in German](https://static-wagtail-v6-3.netlify.app/admin-german/)
+  - [v6.3 admin for non-admin user](https://static-wagtail-v6-3.netlify.app/admin-editor/)
+- [v6.2](https://static-wagtail-v6-2.netlify.app/): 2024-08-01
+  - [v6.2 admin in dark mode](https://static-wagtail-v6-2.netlify.app/admin-dark/)
+  - [v6.2 admin in Arabic](https://static-wagtail-v6-2.netlify.app/admin-arabic/)
+  - [v6.2 admin in German](https://static-wagtail-v6-2.netlify.app/admin-german/)
 - [v6.1](https://static-wagtail-v6-1.netlify.app/): 2024-05-01
   - [v6.1 admin in dark mode](https://static-wagtail-v6-1.netlify.app/admin-dark/)
   - [v6.1 admin in Arabic](https://static-wagtail-v6-1.netlify.app/admin-arabic/)
@@ -67,6 +76,10 @@ cp ../evergreen/backup.sh .
 # Also make sure to use the correct folder name.
 vim backup.sh
 bash backup.sh
+# See which files are taking up a lot of place.
+cd folder with the backed up files.
+du -h admin-*/*/* | sort -h
+rm media/images/*.{original.jpg,webp}
 ```
 
 The last step of the backup script is to copy API response payloads, and set up redirects in Netlify so the right payload is served based on query parameter. This is only needed for the page explorer – other parts of the CMS will work with any static files server.
