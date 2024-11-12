@@ -4,6 +4,7 @@ Static snapshots of Wagtail’s bakerydemo across [past versions](https://github
 
 - [v6.3](https://static-wagtail-v6-3.netlify.app/): 2024-11-01
   - [v6.3 admin in dark mode](https://static-wagtail-v6-3.netlify.app/admin-dark/)
+  - [v6.3 admin in prefers-contrast mode](https://static-wagtail-v6-3.netlify.app/admin-contrast/)
   - [v6.3 admin in Arabic](https://static-wagtail-v6-3.netlify.app/admin-arabic/)
   - [v6.3 admin in German](https://static-wagtail-v6-3.netlify.app/admin-german/)
   - [v6.3 admin for non-admin user](https://static-wagtail-v6-3.netlify.app/admin-editor/)
