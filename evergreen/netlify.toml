@@ -1,0 +1,7 @@
+[[edge_functions]]
+path = "/admin/pages/*/edit/preview/"
+function = "preview"
+
+[[edge_functions]]
+path = "/admin-*/pages/*/edit/preview/"
+function = "preview"

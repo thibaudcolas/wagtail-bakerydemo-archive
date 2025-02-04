@@ -3,200 +3,200 @@
 /admin/api/main/pages/ translation_of=:id /admin/api/main/pages/translation_of_:id.json
 /admin/pages/:id/privacy/ /admin/pages/68/privacy/index.html
 /admin/pages/:id/revisions/compare/:base...:target/ /admin/pages/:id/revisions/compare/:base...:target/index.html
-/admin/pages/:id/edit/preview/ /preview.json
 /admin/settings/base/genericsettings/ /admin/settings/base/genericsettings/1/
 /admin-dark/api/main/pages/ child_of=:id /admin-dark/api/main/pages/child_of_:id.json
 /admin-dark/api/main/pages/ translation_of=:id /admin-dark/api/main/pages/translation_of_:id.json
 /admin-dark/pages/:id/privacy/ /admin-dark/pages/68/privacy/index.html
 /admin-dark/pages/:id/revisions/compare/:base...:target/ /admin-dark/pages/:id/revisions/compare/:base...:target/index.html
-/admin-dark/pages/:id/edit/preview/ /preview.json
 /admin-dark/settings/base/genericsettings/ /admin-dark/settings/base/genericsettings/1/
 /admin-german/api/main/pages/ child_of=:id /admin-german/api/main/pages/child_of_:id.json
 /admin-german/api/main/pages/ translation_of=:id /admin-german/api/main/pages/translation_of_:id.json
 /admin-german/pages/:id/privacy/ /admin-german/pages/68/privacy/index.html
 /admin-german/pages/:id/revisions/compare/:base...:target/ /admin-german/pages/:id/revisions/compare/:base...:target/index.html
-/admin-german/pages/:id/edit/preview/ /preview.json
 /admin-german/settings/base/genericsettings/ /admin-german/settings/base/genericsettings/1/
 /admin-arabic/api/main/pages/ child_of=:id /admin-arabic/api/main/pages/child_of_:id.json
 /admin-arabic/api/main/pages/ translation_of=:id /admin-arabic/api/main/pages/translation_of_:id.json
 /admin-arabic/pages/:id/privacy/ /admin-arabic/pages/68/privacy/index.html
 /admin-arabic/pages/:id/revisions/compare/:base...:target/ /admin-arabic/pages/:id/revisions/compare/:base...:target/index.html
-/admin-arabic/pages/:id/edit/preview/ /preview.json
 /admin-arabic/settings/base/genericsettings/ /admin-arabic/settings/base/genericsettings/1/
 /admin-editor/api/main/pages/ child_of=:id /admin-editor/api/main/pages/child_of_:id.json
 /admin-editor/api/main/pages/ translation_of=:id /admin-editor/api/main/pages/translation_of_:id.json
 /admin-editor/pages/:id/privacy/ /admin-editor/pages/68/privacy/index.html
 /admin-editor/pages/:id/revisions/compare/:base...:target/ /admin-editor/pages/:id/revisions/compare/:base...:target/index.html
-/admin-editor/pages/:id/edit/preview/ /preview.json
 /admin-editor/settings/base/genericsettings/ /admin-editor/settings/base/genericsettings/1/
 # Previews
-/admin/pages/60/edit/preview/ in_preview_panel=true /
-/admin/pages/3/edit/preview/ in_preview_panel=true /breads/
-/admin/pages/34/edit/preview/ in_preview_panel=true /breads/anadama-bread/
-/admin/pages/35/edit/preview/ in_preview_panel=true /breads/anpan/
-/admin/pages/36/edit/preview/ in_preview_panel=true /breads/appam-hoppers/
-/admin/pages/37/edit/preview/ in_preview_panel=true /breads/arepa/
-/admin/pages/39/edit/preview/ in_preview_panel=true /breads/bagel/
-/admin/pages/40/edit/preview/ in_preview_panel=true /breads/baguette-french-stick-french-bread/
-/admin/pages/42/edit/preview/ in_preview_panel=true /breads/bammy/
-/admin/pages/49/edit/preview/ in_preview_panel=true /breads/bazin/
-/admin/pages/53/edit/preview/ in_preview_panel=true /breads/bhakri/
-/admin/pages/57/edit/preview/ in_preview_panel=true /breads/black-bread/
-/admin/pages/59/edit/preview/ in_preview_panel=true /breads/bolani/
-/admin/pages/63/edit/preview/ in_preview_panel=true /locations/
-/admin/pages/64/edit/preview/ in_preview_panel=true /locations/new-york/
-/admin/pages/65/edit/preview/ in_preview_panel=true /locations/reykjavik/
-/admin/pages/66/edit/preview/ in_preview_panel=true /locations/london/
-/admin/pages/67/edit/preview/ in_preview_panel=true /locations/wellington/
-/admin/pages/78/edit/preview/ in_preview_panel=true /locations/hofn/
-/admin/pages/79/edit/preview/ in_preview_panel=true /locations/akranes/
-/admin/pages/61/edit/preview/ in_preview_panel=true /blog/
-/admin/pages/62/edit/preview/ in_preview_panel=true /blog/wild-yeast/
-/admin/pages/68/edit/preview/ in_preview_panel=true /blog/bread-circuses/
-/admin/pages/72/edit/preview/ in_preview_panel=true /blog/icelandic-baking/
-/admin/pages/73/edit/preview/ in_preview_panel=true /blog/joy-baking-soda/
-/admin/pages/74/edit/preview/ in_preview_panel=true /blog/sliced-bread/
-/admin/pages/77/edit/preview/ in_preview_panel=true /blog/desserts-benefits/
-/admin/pages/80/edit/preview/ in_preview_panel=true /recipes/
-/admin/pages/81/edit/preview/ in_preview_panel=true /recipes/hot-cross-bun/
-/admin/pages/82/edit/preview/ in_preview_panel=true /recipes/southern-cornbread/
-/admin/pages/83/edit/preview/ in_preview_panel=true /recipes/mincemeat-tart/
-/admin/pages/70/edit/preview/ in_preview_panel=true /gallery/
-/admin/pages/69/edit/preview/ in_preview_panel=true /contact-us/
-/admin/pages/76/edit/preview/ in_preview_panel=true /about/
-/admin-dark/pages/60/edit/preview/ in_preview_panel=true /
-/admin-dark/pages/3/edit/preview/ in_preview_panel=true /breads/
-/admin-dark/pages/34/edit/preview/ in_preview_panel=true /breads/anadama-bread/
-/admin-dark/pages/35/edit/preview/ in_preview_panel=true /breads/anpan/
-/admin-dark/pages/36/edit/preview/ in_preview_panel=true /breads/appam-hoppers/
-/admin-dark/pages/37/edit/preview/ in_preview_panel=true /breads/arepa/
-/admin-dark/pages/39/edit/preview/ in_preview_panel=true /breads/bagel/
-/admin-dark/pages/40/edit/preview/ in_preview_panel=true /breads/baguette-french-stick-french-bread/
-/admin-dark/pages/42/edit/preview/ in_preview_panel=true /breads/bammy/
-/admin-dark/pages/49/edit/preview/ in_preview_panel=true /breads/bazin/
-/admin-dark/pages/53/edit/preview/ in_preview_panel=true /breads/bhakri/
-/admin-dark/pages/57/edit/preview/ in_preview_panel=true /breads/black-bread/
-/admin-dark/pages/59/edit/preview/ in_preview_panel=true /breads/bolani/
-/admin-dark/pages/63/edit/preview/ in_preview_panel=true /locations/
-/admin-dark/pages/64/edit/preview/ in_preview_panel=true /locations/new-york/
-/admin-dark/pages/65/edit/preview/ in_preview_panel=true /locations/reykjavik/
-/admin-dark/pages/66/edit/preview/ in_preview_panel=true /locations/london/
-/admin-dark/pages/67/edit/preview/ in_preview_panel=true /locations/wellington/
-/admin-dark/pages/78/edit/preview/ in_preview_panel=true /locations/hofn/
-/admin-dark/pages/79/edit/preview/ in_preview_panel=true /locations/akranes/
-/admin-dark/pages/61/edit/preview/ in_preview_panel=true /blog/
-/admin-dark/pages/62/edit/preview/ in_preview_panel=true /blog/wild-yeast/
-/admin-dark/pages/68/edit/preview/ in_preview_panel=true /blog/bread-circuses/
-/admin-dark/pages/72/edit/preview/ in_preview_panel=true /blog/icelandic-baking/
-/admin-dark/pages/73/edit/preview/ in_preview_panel=true /blog/joy-baking-soda/
-/admin-dark/pages/74/edit/preview/ in_preview_panel=true /blog/sliced-bread/
-/admin-dark/pages/77/edit/preview/ in_preview_panel=true /blog/desserts-benefits/
-/admin-dark/pages/80/edit/preview/ in_preview_panel=true /recipes/
-/admin-dark/pages/81/edit/preview/ in_preview_panel=true /recipes/hot-cross-bun/
-/admin-dark/pages/82/edit/preview/ in_preview_panel=true /recipes/southern-cornbread/
-/admin-dark/pages/83/edit/preview/ in_preview_panel=true /recipes/mincemeat-tart/
-/admin-dark/pages/70/edit/preview/ in_preview_panel=true /gallery/
-/admin-dark/pages/69/edit/preview/ in_preview_panel=true /contact-us/
-/admin-dark/pages/76/edit/preview/ in_preview_panel=true /about/
-/admin-arabic/pages/60/edit/preview/ in_preview_panel=true /
-/admin-arabic/pages/3/edit/preview/ in_preview_panel=true /breads/
-/admin-arabic/pages/34/edit/preview/ in_preview_panel=true /breads/anadama-bread/
-/admin-arabic/pages/35/edit/preview/ in_preview_panel=true /breads/anpan/
-/admin-arabic/pages/36/edit/preview/ in_preview_panel=true /breads/appam-hoppers/
-/admin-arabic/pages/37/edit/preview/ in_preview_panel=true /breads/arepa/
-/admin-arabic/pages/39/edit/preview/ in_preview_panel=true /breads/bagel/
-/admin-arabic/pages/40/edit/preview/ in_preview_panel=true /breads/baguette-french-stick-french-bread/
-/admin-arabic/pages/42/edit/preview/ in_preview_panel=true /breads/bammy/
-/admin-arabic/pages/49/edit/preview/ in_preview_panel=true /breads/bazin/
-/admin-arabic/pages/53/edit/preview/ in_preview_panel=true /breads/bhakri/
-/admin-arabic/pages/57/edit/preview/ in_preview_panel=true /breads/black-bread/
-/admin-arabic/pages/59/edit/preview/ in_preview_panel=true /breads/bolani/
-/admin-arabic/pages/63/edit/preview/ in_preview_panel=true /locations/
-/admin-arabic/pages/64/edit/preview/ in_preview_panel=true /locations/new-york/
-/admin-arabic/pages/65/edit/preview/ in_preview_panel=true /locations/reykjavik/
-/admin-arabic/pages/66/edit/preview/ in_preview_panel=true /locations/london/
-/admin-arabic/pages/67/edit/preview/ in_preview_panel=true /locations/wellington/
-/admin-arabic/pages/78/edit/preview/ in_preview_panel=true /locations/hofn/
-/admin-arabic/pages/79/edit/preview/ in_preview_panel=true /locations/akranes/
-/admin-arabic/pages/61/edit/preview/ in_preview_panel=true /blog/
-/admin-arabic/pages/62/edit/preview/ in_preview_panel=true /blog/wild-yeast/
-/admin-arabic/pages/68/edit/preview/ in_preview_panel=true /blog/bread-circuses/
-/admin-arabic/pages/72/edit/preview/ in_preview_panel=true /blog/icelandic-baking/
-/admin-arabic/pages/73/edit/preview/ in_preview_panel=true /blog/joy-baking-soda/
-/admin-arabic/pages/74/edit/preview/ in_preview_panel=true /blog/sliced-bread/
-/admin-arabic/pages/77/edit/preview/ in_preview_panel=true /blog/desserts-benefits/
-/admin-arabic/pages/80/edit/preview/ in_preview_panel=true /recipes/
-/admin-arabic/pages/81/edit/preview/ in_preview_panel=true /recipes/hot-cross-bun/
-/admin-arabic/pages/82/edit/preview/ in_preview_panel=true /recipes/southern-cornbread/
-/admin-arabic/pages/83/edit/preview/ in_preview_panel=true /recipes/mincemeat-tart/
-/admin-arabic/pages/70/edit/preview/ in_preview_panel=true /gallery/
-/admin-arabic/pages/69/edit/preview/ in_preview_panel=true /contact-us/
-/admin-arabic/pages/76/edit/preview/ in_preview_panel=true /about/
-/admin-german/pages/60/edit/preview/ in_preview_panel=true /
-/admin-german/pages/3/edit/preview/ in_preview_panel=true /breads/
-/admin-german/pages/34/edit/preview/ in_preview_panel=true /breads/anadama-bread/
-/admin-german/pages/35/edit/preview/ in_preview_panel=true /breads/anpan/
-/admin-german/pages/36/edit/preview/ in_preview_panel=true /breads/appam-hoppers/
-/admin-german/pages/37/edit/preview/ in_preview_panel=true /breads/arepa/
-/admin-german/pages/39/edit/preview/ in_preview_panel=true /breads/bagel/
-/admin-german/pages/40/edit/preview/ in_preview_panel=true /breads/baguette-french-stick-french-bread/
-/admin-german/pages/42/edit/preview/ in_preview_panel=true /breads/bammy/
-/admin-german/pages/49/edit/preview/ in_preview_panel=true /breads/bazin/
-/admin-german/pages/53/edit/preview/ in_preview_panel=true /breads/bhakri/
-/admin-german/pages/57/edit/preview/ in_preview_panel=true /breads/black-bread/
-/admin-german/pages/59/edit/preview/ in_preview_panel=true /breads/bolani/
-/admin-german/pages/63/edit/preview/ in_preview_panel=true /locations/
-/admin-german/pages/64/edit/preview/ in_preview_panel=true /locations/new-york/
-/admin-german/pages/65/edit/preview/ in_preview_panel=true /locations/reykjavik/
-/admin-german/pages/66/edit/preview/ in_preview_panel=true /locations/london/
-/admin-german/pages/67/edit/preview/ in_preview_panel=true /locations/wellington/
-/admin-german/pages/78/edit/preview/ in_preview_panel=true /locations/hofn/
-/admin-german/pages/79/edit/preview/ in_preview_panel=true /locations/akranes/
-/admin-german/pages/61/edit/preview/ in_preview_panel=true /blog/
-/admin-german/pages/62/edit/preview/ in_preview_panel=true /blog/wild-yeast/
-/admin-german/pages/68/edit/preview/ in_preview_panel=true /blog/bread-circuses/
-/admin-german/pages/72/edit/preview/ in_preview_panel=true /blog/icelandic-baking/
-/admin-german/pages/73/edit/preview/ in_preview_panel=true /blog/joy-baking-soda/
-/admin-german/pages/74/edit/preview/ in_preview_panel=true /blog/sliced-bread/
-/admin-german/pages/77/edit/preview/ in_preview_panel=true /blog/desserts-benefits/
-/admin-german/pages/80/edit/preview/ in_preview_panel=true /recipes/
-/admin-german/pages/81/edit/preview/ in_preview_panel=true /recipes/hot-cross-bun/
-/admin-german/pages/82/edit/preview/ in_preview_panel=true /recipes/southern-cornbread/
-/admin-german/pages/83/edit/preview/ in_preview_panel=true /recipes/mincemeat-tart/
-/admin-german/pages/70/edit/preview/ in_preview_panel=true /gallery/
-/admin-german/pages/69/edit/preview/ in_preview_panel=true /contact-us/
-/admin-german/pages/76/edit/preview/ in_preview_panel=true /about/
-/admin-editor/pages/60/edit/preview/ in_preview_panel=true /
-/admin-editor/pages/3/edit/preview/ in_preview_panel=true /breads/
-/admin-editor/pages/34/edit/preview/ in_preview_panel=true /breads/anadama-bread/
-/admin-editor/pages/35/edit/preview/ in_preview_panel=true /breads/anpan/
-/admin-editor/pages/36/edit/preview/ in_preview_panel=true /breads/appam-hoppers/
-/admin-editor/pages/37/edit/preview/ in_preview_panel=true /breads/arepa/
-/admin-editor/pages/39/edit/preview/ in_preview_panel=true /breads/bagel/
-/admin-editor/pages/40/edit/preview/ in_preview_panel=true /breads/baguette-french-stick-french-bread/
-/admin-editor/pages/42/edit/preview/ in_preview_panel=true /breads/bammy/
-/admin-editor/pages/49/edit/preview/ in_preview_panel=true /breads/bazin/
-/admin-editor/pages/53/edit/preview/ in_preview_panel=true /breads/bhakri/
-/admin-editor/pages/57/edit/preview/ in_preview_panel=true /breads/black-bread/
-/admin-editor/pages/59/edit/preview/ in_preview_panel=true /breads/bolani/
-/admin-editor/pages/63/edit/preview/ in_preview_panel=true /locations/
-/admin-editor/pages/64/edit/preview/ in_preview_panel=true /locations/new-york/
-/admin-editor/pages/65/edit/preview/ in_preview_panel=true /locations/reykjavik/
-/admin-editor/pages/66/edit/preview/ in_preview_panel=true /locations/london/
-/admin-editor/pages/67/edit/preview/ in_preview_panel=true /locations/wellington/
-/admin-editor/pages/78/edit/preview/ in_preview_panel=true /locations/hofn/
-/admin-editor/pages/79/edit/preview/ in_preview_panel=true /locations/akranes/
-/admin-editor/pages/61/edit/preview/ in_preview_panel=true /blog/
-/admin-editor/pages/62/edit/preview/ in_preview_panel=true /blog/wild-yeast/
-/admin-editor/pages/68/edit/preview/ in_preview_panel=true /blog/bread-circuses/
-/admin-editor/pages/72/edit/preview/ in_preview_panel=true /blog/icelandic-baking/
-/admin-editor/pages/73/edit/preview/ in_preview_panel=true /blog/joy-baking-soda/
-/admin-editor/pages/74/edit/preview/ in_preview_panel=true /blog/sliced-bread/
-/admin-editor/pages/77/edit/preview/ in_preview_panel=true /blog/desserts-benefits/
-/admin-editor/pages/80/edit/preview/ in_preview_panel=true /recipes/
-/admin-editor/pages/81/edit/preview/ in_preview_panel=true /recipes/hot-cross-bun/
-/admin-editor/pages/82/edit/preview/ in_preview_panel=true /recipes/southern-cornbread/
-/admin-editor/pages/83/edit/preview/ in_preview_panel=true /recipes/mincemeat-tart/
-/admin-editor/pages/70/edit/preview/ in_preview_panel=true /gallery/
-/admin-editor/pages/69/edit/preview/ in_preview_panel=true /contact-us/
-/admin-editor/pages/76/edit/preview/ in_preview_panel=true /about/
+/admin/block-preview/ id=:id /admin/block-preview/:id.html
+/admin-dark/block-preview/ id=:id /admin-dark/block-preview/:id.html
+/admin-arabic/block-preview/ id=:id /admin-arabic/block-preview/:id.html
+/admin-german/block-preview/ id=:id /admin-german/block-preview/:id.html
+/admin-editor/block-preview/ id=:id /admin-editor/block-preview/:id.html
+/admin/pages/60/edit/preview/ /
+/admin/pages/3/edit/preview/ /breads/
+/admin/pages/34/edit/preview/ /breads/anadama-bread/
+/admin/pages/35/edit/preview/ /breads/anpan/
+/admin/pages/36/edit/preview/ /breads/appam-hoppers/
+/admin/pages/37/edit/preview/ /breads/arepa/
+/admin/pages/39/edit/preview/ /breads/bagel/
+/admin/pages/40/edit/preview/ /breads/baguette-french-stick-french-bread/
+/admin/pages/42/edit/preview/ /breads/bammy/
+/admin/pages/49/edit/preview/ /breads/bazin/
+/admin/pages/53/edit/preview/ /breads/bhakri/
+/admin/pages/57/edit/preview/ /breads/black-bread/
+/admin/pages/59/edit/preview/ /breads/bolani/
+/admin/pages/63/edit/preview/ /locations/
+/admin/pages/64/edit/preview/ /locations/new-york/
+/admin/pages/65/edit/preview/ /locations/reykjavik/
+/admin/pages/66/edit/preview/ /locations/london/
+/admin/pages/67/edit/preview/ /locations/wellington/
+/admin/pages/78/edit/preview/ /locations/hofn/
+/admin/pages/79/edit/preview/ /locations/akranes/
+/admin/pages/61/edit/preview/ /blog/
+/admin/pages/62/edit/preview/ /blog/wild-yeast/
+/admin/pages/68/edit/preview/ /blog/bread-circuses/
+/admin/pages/72/edit/preview/ /blog/icelandic-baking/
+/admin/pages/73/edit/preview/ /blog/joy-baking-soda/
+/admin/pages/74/edit/preview/ /blog/sliced-bread/
+/admin/pages/77/edit/preview/ /blog/desserts-benefits/
+/admin/pages/80/edit/preview/ /recipes/
+/admin/pages/81/edit/preview/ /recipes/hot-cross-bun/
+/admin/pages/82/edit/preview/ /recipes/southern-cornbread/
+/admin/pages/83/edit/preview/ /recipes/mincemeat-tart/
+/admin/pages/70/edit/preview/ /gallery/
+/admin/pages/69/edit/preview/ /contact-us/
+/admin/pages/76/edit/preview/ /about/
+/admin-dark/pages/60/edit/preview/ /
+/admin-dark/pages/3/edit/preview/ /breads/
+/admin-dark/pages/34/edit/preview/ /breads/anadama-bread/
+/admin-dark/pages/35/edit/preview/ /breads/anpan/
+/admin-dark/pages/36/edit/preview/ /breads/appam-hoppers/
+/admin-dark/pages/37/edit/preview/ /breads/arepa/
+/admin-dark/pages/39/edit/preview/ /breads/bagel/
+/admin-dark/pages/40/edit/preview/ /breads/baguette-french-stick-french-bread/
+/admin-dark/pages/42/edit/preview/ /breads/bammy/
+/admin-dark/pages/49/edit/preview/ /breads/bazin/
+/admin-dark/pages/53/edit/preview/ /breads/bhakri/
+/admin-dark/pages/57/edit/preview/ /breads/black-bread/
+/admin-dark/pages/59/edit/preview/ /breads/bolani/
+/admin-dark/pages/63/edit/preview/ /locations/
+/admin-dark/pages/64/edit/preview/ /locations/new-york/
+/admin-dark/pages/65/edit/preview/ /locations/reykjavik/
+/admin-dark/pages/66/edit/preview/ /locations/london/
+/admin-dark/pages/67/edit/preview/ /locations/wellington/
+/admin-dark/pages/78/edit/preview/ /locations/hofn/
+/admin-dark/pages/79/edit/preview/ /locations/akranes/
+/admin-dark/pages/61/edit/preview/ /blog/
+/admin-dark/pages/62/edit/preview/ /blog/wild-yeast/
+/admin-dark/pages/68/edit/preview/ /blog/bread-circuses/
+/admin-dark/pages/72/edit/preview/ /blog/icelandic-baking/
+/admin-dark/pages/73/edit/preview/ /blog/joy-baking-soda/
+/admin-dark/pages/74/edit/preview/ /blog/sliced-bread/
+/admin-dark/pages/77/edit/preview/ /blog/desserts-benefits/
+/admin-dark/pages/80/edit/preview/ /recipes/
+/admin-dark/pages/81/edit/preview/ /recipes/hot-cross-bun/
+/admin-dark/pages/82/edit/preview/ /recipes/southern-cornbread/
+/admin-dark/pages/83/edit/preview/ /recipes/mincemeat-tart/
+/admin-dark/pages/70/edit/preview/ /gallery/
+/admin-dark/pages/69/edit/preview/ /contact-us/
+/admin-dark/pages/76/edit/preview/ /about/
+/admin-arabic/pages/60/edit/preview/ /
+/admin-arabic/pages/3/edit/preview/ /breads/
+/admin-arabic/pages/34/edit/preview/ /breads/anadama-bread/
+/admin-arabic/pages/35/edit/preview/ /breads/anpan/
+/admin-arabic/pages/36/edit/preview/ /breads/appam-hoppers/
+/admin-arabic/pages/37/edit/preview/ /breads/arepa/
+/admin-arabic/pages/39/edit/preview/ /breads/bagel/
+/admin-arabic/pages/40/edit/preview/ /breads/baguette-french-stick-french-bread/
+/admin-arabic/pages/42/edit/preview/ /breads/bammy/
+/admin-arabic/pages/49/edit/preview/ /breads/bazin/
+/admin-arabic/pages/53/edit/preview/ /breads/bhakri/
+/admin-arabic/pages/57/edit/preview/ /breads/black-bread/
+/admin-arabic/pages/59/edit/preview/ /breads/bolani/
+/admin-arabic/pages/63/edit/preview/ /locations/
+/admin-arabic/pages/64/edit/preview/ /locations/new-york/
+/admin-arabic/pages/65/edit/preview/ /locations/reykjavik/
+/admin-arabic/pages/66/edit/preview/ /locations/london/
+/admin-arabic/pages/67/edit/preview/ /locations/wellington/
+/admin-arabic/pages/78/edit/preview/ /locations/hofn/
+/admin-arabic/pages/79/edit/preview/ /locations/akranes/
+/admin-arabic/pages/61/edit/preview/ /blog/
+/admin-arabic/pages/62/edit/preview/ /blog/wild-yeast/
+/admin-arabic/pages/68/edit/preview/ /blog/bread-circuses/
+/admin-arabic/pages/72/edit/preview/ /blog/icelandic-baking/
+/admin-arabic/pages/73/edit/preview/ /blog/joy-baking-soda/
+/admin-arabic/pages/74/edit/preview/ /blog/sliced-bread/
+/admin-arabic/pages/77/edit/preview/ /blog/desserts-benefits/
+/admin-arabic/pages/80/edit/preview/ /recipes/
+/admin-arabic/pages/81/edit/preview/ /recipes/hot-cross-bun/
+/admin-arabic/pages/82/edit/preview/ /recipes/southern-cornbread/
+/admin-arabic/pages/83/edit/preview/ /recipes/mincemeat-tart/
+/admin-arabic/pages/70/edit/preview/ /gallery/
+/admin-arabic/pages/69/edit/preview/ /contact-us/
+/admin-arabic/pages/76/edit/preview/ /about/
+/admin-german/pages/60/edit/preview/ /
+/admin-german/pages/3/edit/preview/ /breads/
+/admin-german/pages/34/edit/preview/ /breads/anadama-bread/
+/admin-german/pages/35/edit/preview/ /breads/anpan/
+/admin-german/pages/36/edit/preview/ /breads/appam-hoppers/
+/admin-german/pages/37/edit/preview/ /breads/arepa/
+/admin-german/pages/39/edit/preview/ /breads/bagel/
+/admin-german/pages/40/edit/preview/ /breads/baguette-french-stick-french-bread/
+/admin-german/pages/42/edit/preview/ /breads/bammy/
+/admin-german/pages/49/edit/preview/ /breads/bazin/
+/admin-german/pages/53/edit/preview/ /breads/bhakri/
+/admin-german/pages/57/edit/preview/ /breads/black-bread/
+/admin-german/pages/59/edit/preview/ /breads/bolani/
+/admin-german/pages/63/edit/preview/ /locations/
+/admin-german/pages/64/edit/preview/ /locations/new-york/
+/admin-german/pages/65/edit/preview/ /locations/reykjavik/
+/admin-german/pages/66/edit/preview/ /locations/london/
+/admin-german/pages/67/edit/preview/ /locations/wellington/
+/admin-german/pages/78/edit/preview/ /locations/hofn/
+/admin-german/pages/79/edit/preview/ /locations/akranes/
+/admin-german/pages/61/edit/preview/ /blog/
+/admin-german/pages/62/edit/preview/ /blog/wild-yeast/
+/admin-german/pages/68/edit/preview/ /blog/bread-circuses/
+/admin-german/pages/72/edit/preview/ /blog/icelandic-baking/
+/admin-german/pages/73/edit/preview/ /blog/joy-baking-soda/
+/admin-german/pages/74/edit/preview/ /blog/sliced-bread/
+/admin-german/pages/77/edit/preview/ /blog/desserts-benefits/
+/admin-german/pages/80/edit/preview/ /recipes/
+/admin-german/pages/81/edit/preview/ /recipes/hot-cross-bun/
+/admin-german/pages/82/edit/preview/ /recipes/southern-cornbread/
+/admin-german/pages/83/edit/preview/ /recipes/mincemeat-tart/
+/admin-german/pages/70/edit/preview/ /gallery/
+/admin-german/pages/69/edit/preview/ /contact-us/
+/admin-german/pages/76/edit/preview/ /about/
+/admin-editor/pages/60/edit/preview/ /
+/admin-editor/pages/3/edit/preview/ /breads/
+/admin-editor/pages/34/edit/preview/ /breads/anadama-bread/
+/admin-editor/pages/35/edit/preview/ /breads/anpan/
+/admin-editor/pages/36/edit/preview/ /breads/appam-hoppers/
+/admin-editor/pages/37/edit/preview/ /breads/arepa/
+/admin-editor/pages/39/edit/preview/ /breads/bagel/
+/admin-editor/pages/40/edit/preview/ /breads/baguette-french-stick-french-bread/
+/admin-editor/pages/42/edit/preview/ /breads/bammy/
+/admin-editor/pages/49/edit/preview/ /breads/bazin/
+/admin-editor/pages/53/edit/preview/ /breads/bhakri/
+/admin-editor/pages/57/edit/preview/ /breads/black-bread/
+/admin-editor/pages/59/edit/preview/ /breads/bolani/
+/admin-editor/pages/63/edit/preview/ /locations/
+/admin-editor/pages/64/edit/preview/ /locations/new-york/
+/admin-editor/pages/65/edit/preview/ /locations/reykjavik/
+/admin-editor/pages/66/edit/preview/ /locations/london/
+/admin-editor/pages/67/edit/preview/ /locations/wellington/
+/admin-editor/pages/78/edit/preview/ /locations/hofn/
+/admin-editor/pages/79/edit/preview/ /locations/akranes/
+/admin-editor/pages/61/edit/preview/ /blog/
+/admin-editor/pages/62/edit/preview/ /blog/wild-yeast/
+/admin-editor/pages/68/edit/preview/ /blog/bread-circuses/
+/admin-editor/pages/72/edit/preview/ /blog/icelandic-baking/
+/admin-editor/pages/73/edit/preview/ /blog/joy-baking-soda/
+/admin-editor/pages/74/edit/preview/ /blog/sliced-bread/
+/admin-editor/pages/77/edit/preview/ /blog/desserts-benefits/
+/admin-editor/pages/80/edit/preview/ /recipes/
+/admin-editor/pages/81/edit/preview/ /recipes/hot-cross-bun/
+/admin-editor/pages/82/edit/preview/ /recipes/southern-cornbread/
+/admin-editor/pages/83/edit/preview/ /recipes/mincemeat-tart/
+/admin-editor/pages/70/edit/preview/ /gallery/
+/admin-editor/pages/69/edit/preview/ /contact-us/
+/admin-editor/pages/76/edit/preview/ /about/

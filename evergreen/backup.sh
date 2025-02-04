@@ -5,9 +5,8 @@ ADMIN_PATH=$2
 HOST=$3
 MIRROR_PATHS=$4
 EXTRA_PATHS=$5
-SPRITE_HASH=b5465a64
 COOKIES=cookies.txt
-VERSION=v6-2
+VERSION=v6-4
 SITE_NAME=static-wagtail-$VERSION
 
 if [ -z "$ADMIN_PATH" ]; then
@@ -49,11 +48,16 @@ while IFS= read -r path; do
   wget --no-host-directories -P ./$SITE_NAME --mirror --level=1 --load-cookies $COOKIES $FULL_URL
 done < $EXTRA_PATHS
 
-# Finish with this to reset the dashboard copy.
+# Finish with this to reset the dashboard and avoid a "no permissions message".
 wget --no-host-directories -P ./$SITE_NAME --load-cookies $COOKIES $HOST/
 
 find ./$SITE_NAME -name "*export=xlsx*" | xargs rm
 find ./$SITE_NAME -name "*export=csv*" | xargs rm
+
+for i in `find $SITE_NAME -type f -name "*\?*"`; do mv $i `echo $i | cut -d '?' -f1`; done
+rename 's/index.html\?id=blockdef-//g' $SITE_NAME$ADMIN_PATH/block-preview/*.html
+
+rm -rf .$ADMIN_PATH/pages/*/edit/preview/
 
 rm -rf $SITE_NAME/static
 cp -R bakerydemo/bakerydemo/collect_static $SITE_NAME/static
