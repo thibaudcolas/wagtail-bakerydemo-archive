@@ -67,3 +67,6 @@ rm $SITE_NAME/media/images/*.webp
 cp -R ../evergreen$ADMIN_PATH/api ./$SITE_NAME$ADMIN_PATH/api
 
 cp -R ../evergreen/_redirects ./$SITE_NAME/_redirects
+cp ../evergreen/netlify.toml ./$SITE_NAME/netlify.toml
+
+echo "netlify deploy --site $SITE_NAME --dir $SITE_NAME --prod"

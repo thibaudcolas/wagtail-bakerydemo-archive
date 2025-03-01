@@ -5,3 +5,8 @@ function = "preview"
 [[edge_functions]]
 path = "/admin-*/pages/*/edit/preview/"
 function = "preview"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Content-Security-Policy-Report-Only = "script-src 'self'  'report-sample'; img-src 'self'  blob:  i.ytimg.com  www.gravatar.com; frame-src 'self'  www.youtube.com; default-src 'self'; style-src 'self'  'report-sample'; connect-src 'self'  releases.wagtail.org"
