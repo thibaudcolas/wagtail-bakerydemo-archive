@@ -1,72 +1,70 @@
 #!/bin/bash
 
-SESSIONID=$1
-ADMIN_PATH=$2
-HOST=$3
-MIRROR_PATHS=$4
-EXTRA_PATHS=$5
-COOKIES=cookies.txt
-VERSION=v6-4
-SITE_NAME=static-wagtail-$VERSION
+# Named arguments.
+while [ $# -gt 0 ]; do
+  if [[ $1 == *"--"* ]]; then
+    v="${1/--/}"
+    declare $v="$2"
+  fi
+  shift
+done
 
-if [ -z "$ADMIN_PATH" ]; then
-  ADMIN_PATH="/admin"
-fi
-if [ -z "$HOST" ]; then
-  HOST="http://localhost:8000"
-fi
-if [ -z "$MIRROR_PATHS" ]; then
-  MIRROR_PATHS="mirror_paths.csv"
-fi
-if [ -z "$EXTRA_PATHS" ]; then
-  EXTRA_PATHS="extra_paths.csv"
-fi
-
-touch $COOKIES
-echo "localhost:8000	FALSE	/	FALSE	1745303695	sessionid	$SESSIONID" > $COOKIES
+if [ -z "$version" ]; then version=7.0; fi
+if [ -z "$user" ]; then user=admin; fi
+if [ -z "$origin" ]; then origin=http://localhost:8000; fi
+if [ -z "$path" ]; then path=/admin; fi
+if [ -z "$mirror" ]; then mirror=mirror_paths.csv; fi
+if [ -z "$extra" ]; then extra=extra_paths.csv; fi
+if [ -z "$site" ]; then site=static-wagtail-v7-0; fi
 
 
-if [ "$ADMIN_PATH" = "/admin" ]; then
-  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $HOST/
-  wget --no-host-directories -P ./$SITE_NAME --mirror --mirror --level=1 --load-cookies $COOKIES $HOST/search/?q=bread
+if [ "$path" = "/admin" ]; then
+  wget --no-verbose --no-host-directories -P $site --mirror  --header="X-Auto-Login: $user" $origin/
+  wget --no-verbose --no-host-directories -P $site --mirror --level=1  --header="X-Auto-Login: $user" $origin/search/?q=bread
 
-  wget --no-host-directories -P ./$SITE_NAME --mirror --level=1 $HOST$ADMIN_PATH/login/
-  wget --no-host-directories -P ./$SITE_NAME --mirror --level=1 $HOST$ADMIN_PATH/password_reset/
-  wget --no-host-directories -P ./$SITE_NAME --mirror --level=1 $HOST$ADMIN_PATH/password_reset/done/
+  wget --no-verbose --no-host-directories -P $site --mirror --level=1 $origin$path/login/
+  wget --no-verbose --no-host-directories -P $site --mirror --level=1 $origin$path/password_reset/
+  wget --no-verbose --no-host-directories -P $site --mirror --level=1 $origin$path/password_reset/done/
 else
-  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $HOST$ADMIN_PATH/
+  wget --no-verbose --no-host-directories -P $site --mirror  --header="X-Auto-Login: $user" $origin$path/
 fi
 
-while IFS= read -r path; do
-  FULL_URL="${HOST}${ADMIN_PATH}${path}"
-  wget --no-host-directories -P ./$SITE_NAME --mirror --load-cookies $COOKIES $FULL_URL
-done < $MIRROR_PATHS
+while IFS= read -r p; do
+  full_url="${origin}${path}${p}"
+  wget --no-verbose --no-host-directories -P $site --mirror  --header="X-Auto-Login: $user" $full_url
+done < $mirror
 
-while IFS= read -r path; do
-  FULL_URL="${HOST}${ADMIN_PATH}${path}"
+while IFS= read -r p; do
+  full_url="${origin}${path}${p}"
   # No mirror.
-  wget --no-host-directories -P ./$SITE_NAME --mirror --level=1 --load-cookies $COOKIES $FULL_URL
-done < $EXTRA_PATHS
+  wget --no-verbose --no-host-directories -P $site --mirror --level=1  --header="X-Auto-Login: $user" $full_url
+done < $extra
 
 # Finish with this to reset the dashboard and avoid a "no permissions message".
-wget --no-host-directories -P ./$SITE_NAME --load-cookies $COOKIES $HOST/
+# wget --no-verbose --no-host-directories -P $site  --header="X-Auto-Login: $user" $origin$path/
 
-find ./$SITE_NAME -name "*export=xlsx*" | xargs rm
-find ./$SITE_NAME -name "*export=csv*" | xargs rm
+find ./$site -name "*export=xlsx*" | xargs rm
+find ./$site -name "*export=csv*" | xargs rm
 
-for i in `find $SITE_NAME -type f -name "*\?*"`; do mv $i `echo $i | cut -d '?' -f1`; done
-rename 's/index.html\?id=blockdef-//g' $SITE_NAME$ADMIN_PATH/block-preview/*.html
+for i in `find $site -type f -name "*\?*"`; do mv $i `echo $i | cut -d '?' -f1`; done
+rename 's/index.html\?id=blockdef-//g' $site$path/block-preview/*.html
 
-rm -rf .$ADMIN_PATH/pages/*/edit/preview/
+rm -rf $site/static
+cp -R bakerydemo/bakerydemo/collect_static $site/static
+rm -rf $site/static/admin
+rm -rf $site/static/rest_framework
+rm -rf $site/static/django_extensions
+rm -rf $site/static/table_block/js/vendor/handsontable-6.2.2.full.min.js
+rm -rf $site/$path/pages/*/edit/preview
+rm $site/media/images/*.webp
+rm $site/media/images/*.original.*
+cp -R ../evergreen$path/api ./$site$path/api
 
-rm -rf $SITE_NAME/static
-cp -R bakerydemo/bakerydemo/collect_static $SITE_NAME/static
-rm -rf $SITE_NAME/static/admin
-rm -rf $SITE_NAME/static/rest_framework
-rm $SITE_NAME/media/images/*.webp
-cp -R ../evergreen$ADMIN_PATH/api ./$SITE_NAME$ADMIN_PATH/api
+if [ "$path" = "/admin" ]; then
+  cp -R ../evergreen/_redirects ./$site/_redirects
+  cp -R ../evergreen/netlify ./$site/netlify
+  cp ../evergreen/netlify.toml ./$site/netlify.toml
+fi
 
-cp -R ../evergreen/_redirects ./$SITE_NAME/_redirects
-cp ../evergreen/netlify.toml ./$SITE_NAME/netlify.toml
+echo "netlify deploy --site $site --dir $site --prod"
 
-echo "netlify deploy --site $SITE_NAME --dir $SITE_NAME --prod"

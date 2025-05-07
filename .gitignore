@@ -3,3 +3,4 @@ venv
 # Local Netlify folder
 .netlify
 media/images
+.DS_Store

@@ -2,6 +2,12 @@
 
 Static snapshots of Wagtail’s bakerydemo across [past versions](https://github.com/wagtail/wagtail/wiki/release-schedule) of the CMS.
 
+- [v7.0](https://static-wagtail-v7-0.netlify.app/): 2025-05-07
+  - [v7.0 admin in dark mode](https://static-wagtail-v7-0.netlify.app/admin-dark/)
+  - [v7.0 admin in prefers-contrast mode](https://static-wagtail-v7-0.netlify.app/admin-contrast/)
+  - [v7.0 admin in Arabic](https://static-wagtail-v7-0.netlify.app/admin-arabic/)
+  - [v7.0 admin in German](https://static-wagtail-v7-0.netlify.app/admin-german/)
+  - [v7.0 admin for non-admin user](https://static-wagtail-v7-0.netlify.app/admin-editor/)
 - [v6.4](https://static-wagtail-v6-4.netlify.app/): 2025-02-04
   - [v6.4 admin in dark mode](https://static-wagtail-v6-4.netlify.app/admin-dark/)
   - [v6.4 admin in prefers-contrast mode](https://static-wagtail-v6-4.netlify.app/admin-contrast/)
@@ -74,19 +80,31 @@ pip install -r requirements.txt
 ./manage.py runserver 0:8000
 ```
 
+Then manually create additional data:
+
+- User accounts
+- Redirects
+- Make sure the accounts have their version notification dismissed.
+
 Then prepare the backup,
 
 ```bash
 cd v4.2
 cp ../evergreen/backup.sh .
-# Edit the backup.sh with the correct sprite URL from browser DevTools (`localStorage.getItem('wagtail:spriteRevision')`).
-# Also make sure to use the correct folder name.
-vim backup.sh
-bash backup.sh
+./backup.sh --user admin --path /admin --site static-wagtail-v4-2
+# Make sure to update the urlpatterns before running each script.
+./backup.sh --user german --path /admin-german --site static-wagtail-v4-2
+./backup.sh --user arabic --path /admin-arabic --site static-wagtail-v4-2
+./backup.sh --user editor --path /admin-editor --site static-wagtail-v4-2
+./backup.sh --user dark --path /admin-dark --site static-wagtail-v4-2
 # See which files are taking up a lot of place.
 cd folder with the backed up files.
 du -h admin-*/*/* | sort -h
-rm media/images/*.{original.jpg,webp}
+rm -rf admin-*/pages/add
+mogrify -quality 40 media/images/*.avif
+for f in media/images/*.jpg; do ~/.bin/jpegli/build/tools/cjpegli -q 50 "${f}" "${f}"; done
 ```
 
 The last step of the backup script is to copy API response payloads, and set up redirects in Netlify so the right payload is served based on query parameter. This is only needed for the page explorer – other parts of the CMS will work with any static files server.
+
+See also: [Wagtail UI experiments](https://github.com/thibaudcolas/wagtail-ui-experiments).
